@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSFT,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                   BSPC, LOWER, CTLTB,      ENT, RAISE,   SPC\
+                                   BSPC, LOWER,  LGUI,      ENT, RAISE,   SPC\
                               //`--------------------'  `--------------------'
   ),
   [_LOWER] = LAYOUT_kc( \
